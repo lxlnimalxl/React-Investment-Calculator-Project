@@ -1,67 +1,56 @@
 # 🚀 React Investment Calculator
 
-گوشه‌ای کوچک برای محاسبه‌ی سرمایه‌گذاری با React و Vite. این پروژه همراه با کدِ آموزشی از دوره‌ی "React - The Complete Guide" آماده شده است و شامل یک رابط ساده برای محاسبه‌ی رشد سرمایه با ورودی‌های کاربر است.
+An educational React app that projects investment growth over time. Built with Vite for fast development and simple learning. Enter investment parameters and get a projected final value.
 
-## 🔍 امکانات
+## Features
 
-- وارد کردن مبلغ اولیه، پرداخت‌های دوره‌ای، نرخ بهره و مدت زمان
-- نمایش نتایج خلاصه و محاسبه‌ی ارزش نهایی سرمایه
-- پیاده‌سازی سبک و مینیمال با React + Vite
+- Enter initial investment, periodic contribution, interest rate, and duration
+- See final investment value and a concise summary
+- Minimal, readable implementation using React + Vite
 
-## 🧰 تکنولوژی‌ها
+## Tech
 
 - React
 - Vite
-- JavaScript
+- JavaScript (ESM)
 
-## 🚦 سریع شروع کن
+## Quick Start
 
-1. کلون کردن ریپو (اگر محلی نیست):
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/lxlnimalxl/React-Investment-Calculator-Project.git
 cd React-Investment-Calculator-Project
-```
-
-2. نصب وابستگی‌ها:
-
-```bash
 npm install
 ```
 
-3. اجرای پروژه در حالت توسعه:
+Run development server:
 
 ```bash
 npm run dev
 ```
 
-4. بیلد برای پروڈاکشن:
+Build for production:
 
 ```bash
 npm run build
 ```
 
-## 🗂 ساختار پروژه (خلاصه)
+## Project Structure
 
-- `index.html` — نقطه شروع
-- `src/` — سورس‌های React
-- `src/components/` — کامپوننت‌ها
-- `util/investment.js` — منطق محاسبات سرمایه‌گذاری
+- `index.html` — App entry
+- `src/` — React source files
+- `src/components/` — UI components
+- `src/util/investment.js` — Calculation logic
 
-## 📸 نمایش
+## Screenshot
 
-لوکال هاست را باز کنید (معمولاً http://localhost:5173) و می‌توانید ورودی‌ها را تغییر داده و نتایج را ببینید.
+![Project screenshot](./Screenshot.png)
 
-![نمای پروژه](./Screenshot.png)
+## Contributing
 
-## 🤝 مشارکت
+Issues and pull requests are welcome. Please open an issue for significant changes before sending a PR.
 
-- باگ یا بهبود دارید؟ Issue باز کنید یا PR بزنید.
+## License
 
-## 📝 لایسنس
-
-این پروژه با مجوز MIT منتشر می‌شود.
-
----
-
-اگر دوست دارید README انگلیسی هم اضافه کنم یا badge و تصویر شاخص بسازم، بگویید تا اضافه کنم.
+This project is licensed under the MIT License.
